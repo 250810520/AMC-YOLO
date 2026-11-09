@@ -1,0 +1,13 @@
+# Paths are relative to this YAML file.
+train: datasets/lv/images/jpg-train
+val: datasets/lv/images/jpg-val
+test: datasets/lv/images/jpg-test
+
+nc: 6
+names:
+  0: crazing
+  1: inclusion
+  2: patches
+  3: pitted_surface
+  4: rolled-in_scale
+  5: scratches
